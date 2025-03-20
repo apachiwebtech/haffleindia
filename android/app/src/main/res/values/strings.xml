@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">hafeleindia</string>
+    <string name="title_activity_main">hafeleindia</string>
+    <string name="package_name">com.hafele.india</string>
+    <string name="custom_url_scheme">com.hafele.india</string>
+</resources>

@@ -1,0 +1,357 @@
+
+body { margin: 0; padding:0; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529; text-align: left; background-color: #fff; font-family: 'Fira Sans', sans-serif;}
+/**********************login page html css start **************/
+.header {margin-top:10px; background:#fff;}
+.headertop {position:fixed; top:0; width:100%; background:#fff; z-index:10;}
+.row0 {margin:0;}
+.pad10 {
+    padding: 15px 15px 15px 15px;
+    background: #fff;
+    border-bottom: 1px solid #CF142B;
+}
+.nameholder{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 10px;
+	font-size:14px;
+}
+#drivername {font-size:14px;}
+.logo{ color: #818386;margin-top: 46px;float: right; margin-left: 47px;}
+.tag{ color:#C4002A;}
+.user {font-size: 30px; color: #CF142B; float: right; margin-top: 37px; margin-right: 25px;}
+.user-wrapper {float: right;width: 38%;}
+.login {margin-top: 50px;}
+.login p {color: #CF142B; font-size: 20px; margin-top: -30px; margin-left: 45px;}
+.login-border {margin-top: 15px; margin-left: 45px; margin-right: 50px; margin-bottom: 30px; border: 1px solid #CF142B;}
+.group {text-align: center;  margin-top: 100px; margin-bottom: 20px;}
+/*.boxes img {position: absolute; margin: 4px 0 0 235px;}*/
+input[type=text] {    width: 96%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;}
+input[type=text]:enabled {background: #dddddd; color:#222;}
+input[type=text]:disabled {background: #dddddd; color:#dddddd}
+button {background-color: #afb0ae; color: #fff; cursor: pointer; width: 50%; padding: 5px 20px; margin: 15px 0px 15px 52px; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 6px; font-size: 14px;}
+button:hover { opacity: 0.8;}
+span.psw {float: right; padding-top: 16px;}
+.box-1 input, .box-2 input {
+    position: relative;
+}
+.box-1 img, .box-2 img{
+    position: absolute;
+    right: 39px;
+    margin: 0;
+
+}
+.box-btn button{
+padding: 7px 5px 5px 12px;
+    font-size: 13px;
+    width: 60%;
+    float: left;
+    display: inline-block;
+    line-height: 17px;
+    margin-left: 0 !important;
+}
+.box-btn button img{
+    margin: 0;
+    float: left;
+    display: inline-block;
+    width: 17px;
+}
+.signshop .uploadpic {
+    padding: 5px 35px 15px 35px;
+    background: #bfbfbf;
+    float: left;
+    margin-bottom: 25px;
+        width: 100%;
+}
+
+/**********************login page cssclosed **************/
+
+.searchWrapp  {
+    position: relative;
+    margin: 25px 50px;
+    width: 100%;
+}
+
+/**********************pending page html css start **************/
+.info {color: #CF142B; font-size: 14px; margin-top: 0px; margin-left: 50px; margin-bottom: 0px;}
+.info-border{margin-top: 0px; margin-bottom: 30px; border: 1px solid #CF142B;}
+.productlist {margin: 10px 0 20px 0px;}
+
+.pending {width: 25%; padding:4px; margin-right: -5px; border-radius:0px; font-size:12px; }
+.deliverd { width:25%; padding:4px; margin:0px; border-radius:0px; font-size:12px;}
+.status {text-align: right; margin-right: 40px;}
+.pending:enabled {color:#fff; }
+.pending:disabled {background: #CF142B; color:#fff; }
+.deliverd:enabled {color:#fff; }
+.deliverd:disabled {background: #CF142B; color:#fff; }
+.small-wrapper {background: #EBECEC;     height: 100vh; overflow:auto; margin-top:85px;     }
+.shop {padding: 20px 40px 40px 50px;}
+.box-border {float: left;}
+.lot {border: 1px solid #ddd; background: #fff; margin-bottom:20px;}
+.client {font-size: 14px; margin: 6px 46px;}
+.add {font-size: 7px; border-bottom: 1px solid #ddd; padding: 5px 0px 8px 0px; margin: 5px 70px 2px 45px;}
+.follow{
+   /* float: left;*/
+}
+.para-inner{
+        display: inline-block;
+    float: left;
+    width: auto;}
+.van{width: 24px; 
+ /*   position: absolute; */
+     margin: -3px 3px 0px;; 
+   /* float: left;*/}
+
+.add i{color: #CF142B!important;}
+a.btn.btn-secondary.btn-sm.dropdown-toggle.total {background: none; border: none; font-size: 10px; color: #CF142B!important;
+    margin-top: 5px; padding-top: 10px;}
+.date {font-size: 10px; color: #CF142B!important;}
+.pbar{font-size: 8px; position: absolute; margin: -19px 219px; background: #ddd; padding: 2px 7px;}
+.ptotal {font-size: 10px;
+    padding: 10px 5px 10px 10px;
+    color: #CF142B!important;}
+.pdetailbox{list-style-type: none;
+    font-size: 10px;
+    margin: 10px 27px 10px -35px;}
+/**********************deliverd css start **************/
+.big-wrapper {background: #EBECEC;}
+.productlist {
+    margin: 0px 0 20px 0px;
+    position: relative;
+}
+.productlist img {
+    position: absolute;
+    top: -10px;
+    left: 278px;
+}
+input[type=customer] {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;
+    width: 325px;
+    padding: 5px 10px;
+}
+
+.shop {padding: 0px 15px 40px 15px;}
+.box-border {float: left; margin-right: 3px;     height: 100%;}
+.lot {border: 1px solid #ddd; background: #fff; margin-bottom:20px; position:relative;}
+.client {font-size: 14px; margin:5px 0;}
+.add { 
+    font-size: 9px;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px 6px 0px;
+    margin: 5px 0 2px 0;
+    display: inline-block;
+}
+
+#customernameerror {
+	margin-top:10px;
+}
+
+.padr0 {
+	padding-right:0;
+}
+
+.padlf0 {
+	padding-left:0;
+}
+
+.text-right {
+	text-align:right;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.hidenbox {
+	display:none;
+}
+
+.input-car{
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 8px;
+}
+
+.dfollosw {margin-top:15px;}
+
+.dfollow{position: absolute;
+    margin: 10px 58px 0px;
+    width: 4%;}
+.dvan{    width: 9%;
+    position: absolute;
+    margin: 9px 0 0 4px;}
+.add i{color: #CF142B!important;}
+a.btn.btn-secondary.btn-sm.dropdown-toggle.total {background: none; border: none; font-size: 10px; color: #CF142B!important;
+    margin-top: 5px; padding-top: 10px;}
+.date {font-size: 10px; color: #CF142B!important;}
+.dbar{font-size: 8px;
+    background: #CF142B;
+    color: #fff;
+    padding: 2px 7px;
+    display: inline-block;
+    margin:0;
+}
+.left-img{
+    display: inline-block;
+    float: left;
+        height: 106px;
+}
+.right-bar{
+        display: inline-block;
+    width: 80%;
+}
+.total {font-size: 10px; padding: 4px 0px;color: #CF142B!important;}
+.adetailbox{list-style-type: none;
+    font-size: 10px;
+    margin: 10px 27px 10px -35px;}
+.dropbtn {
+    margin:0 0px 2px 0;
+}
+.fixhead{
+    position: fixed;
+    top: 0;
+    background: #fff;
+	width:100%;
+	z-index:10;
+}
+
+.bg-color{
+    background: linear-gradient(90deg, rgba(208,19,42,1) 0%, rgba(208,19,42,1) 24%, rgba(239,174,182,1) 24%, rgba(239,174,182,1) 34%, rgba(255,255,255,1) 34%);
+}
+/**********************deliverd css start **************/
+.probar{font-size: 8px; position: absolute; margin: -19px 210px; background: #ddd; padding: 2px 7px;}
+.pro-wrapper {
+    margin: 103px 0 0px 0px;
+    border-top: 1px solid #CF142B;
+    height: 800px;
+    background: #ddd;
+    display: inline-block;
+}
+.top-head {
+    width: 100%;
+    display: inline-block;
+}
+.login-wrapper{
+    float: left;
+}
+.lot-wrapepr{
+    padding: 20px 40px 40px 50px;
+}
+.lot .invoice-area {
+display: inline-block;
+    width: 77%;
+    height: 18px;
+}
+.lot .invoice-area .invoicebox{
+    width:40%;
+    display: inline-block;
+}
+.lot .invoice-area .invoicebox span{
+    font-size: 10px;
+}
+.lotimg{
+    display: none;
+    height: 178px;
+    float: left;
+    margin-right: 4px;  
+}
+.lotimg img{
+    width: 100%;
+    height: 100%;
+}
+.up-btn{
+    display: none;
+}
+#clkinovice{
+    /*display: none;*/
+    overflow: scroll;
+}
+.clkinovice{
+    /*display: none;*/
+	padding-top:5px;
+}
+.addClass{
+    height: 95px;
+}
+input[type=number]:enabled {
+    background: #dddddd;
+    color: #222;
+}
+input[type=number] {
+    width: 96%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;
+}
+.boxes {
+    margin: 0 40px;
+}
+.middle-wrapper .productlist{
+    height: 100vh;
+    margin: 10px 0 20px 0px;
+    border-top: 1px solid #CF142B;
+    background-color: #EBECEC;
+}
+.middle-wrapper .inner{
+        margin: 0 50px;
+    text-align: center;
+}
+.middle-wrapper .inner h5{
+    background-color: #CF142B;
+    padding: 6px 0;
+    color: #fff;
+    font: normal normal bold 28px/40px Tekton Pro;
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.middle-wrapper .inner .para{
+border: 2px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    padding: 15px 0;
+    margin-top: 25px;
+}
+.middle-wrapper .inner p{
+    color: #9D9E9E;
+    font-size: 18px;
+    text-align: center;
+}
+.group1{
+    text-align: center;
+}
+.group1 img{
+position: initial;
+    margin: 40px 0 20px 0;
+}
+.back-btn{
+        margin: 15px 50px;
+    text-align: center;
+}
+.subtn{
+    background-color: #CF142B;
+    padding: 4px 96px;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 7px;
+}

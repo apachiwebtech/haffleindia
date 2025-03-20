@@ -1,0 +1,83 @@
+@media (max-width:450px) {
+div#charNum {
+    width: 99%;
+    text-align: right;
+    padding-right: 9px;
+}
+button.subtn {
+    width: 100%;
+}
+.comments textarea#field {
+    width: 100%;
+    margin-top: 5px;
+    height: 80px;
+}
+.comments {
+    clear: both;
+    margin-top: 15px;
+}
+}
+ @media(min-width:451px) and (max-width:540px) {
+ div#charNum {
+    width: 99%;
+    text-align: right;
+    padding-right: 9px;
+}
+.comments {
+    clear: both;
+    margin-top: 15px;
+}
+button.subtn {
+    width: 100%;
+}
+.comments textarea#field {
+   width: 100%;
+    margin-top: 5px;
+    height: 80px;
+}
+ 
+}
+ @media(min-width:541px) and (max-width:640px) {
+div#charNum {
+    width: 99%;
+    text-align: right;
+    padding-right: 9px;
+}
+button.subtn {
+    width: 100%;
+}
+.comments textarea#field {
+    width: 100%;
+    margin-top: 5px;
+    height: 80px;
+}
+}
+ @media(min-width:641px) and (max-width:768px) {
+ div#charNum {
+    width: 99%;
+    text-align: right;
+    padding-right: 9px;
+}
+button.subtn {
+    width: 100%;
+}
+.comments textarea#field {
+   width: 100%;
+    margin-top: 5px;
+    height: 80px;
+}
+}
+  @media(min-width:769px) and (max-width:1024px) {
+ 
+}
+ @media(min-width:1025px) and (max-width:1200px) {
+
+
+ 
+}
+ @media(min-width : 1440px) {
+  
+}
+ @media(min-width : 1980px) {
+
+}
