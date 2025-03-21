@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import logo from '../images/haefele_logo.png'
 import user from '../images/user.png'
 import plus from '../images/plus-img.png'
+import pod from '../images/pod-img.png'
 import { Camera, CameraResultType } from '@capacitor/camera';
 import $ from 'jquery'
 import Loader from './Loader'
@@ -411,7 +412,7 @@ const Processing = () => {
                         <div className='row'>
                             <div class="uploadimg " id="cameraTakePicture1">
                                 <img
-                                    src={image1 ? image1 : plus}
+                                    src={image1 ? image1 : pod}
                                     id="image1"
                                     style={{
                                         width: "100%",
@@ -421,7 +422,7 @@ const Processing = () => {
                                 />
 
                                 <input type="file" onChange={handlechange} accept="image/*" name='image1' id="image1Name" value="" capture />
-                                <button onClick={takePicture}>click</button>
+                                {/* <button onClick={takePicture}>click</button> */}
                             </div>
 
                             <div class="uploadimg col-4" id="cameraTakePicture2">

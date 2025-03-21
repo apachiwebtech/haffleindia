@@ -36,7 +36,7 @@ input[type=text] {    width: 96%;
     font-size: 14px;}
 input[type=text]:enabled {background: #dddddd; color:#222;}
 input[type=text]:disabled {background: #dddddd; color:#dddddd}
-button {background-color: #afb0ae; color: #fff; cursor: pointer; width: 50%; padding: 5px 20px; margin: 15px 0px 15px 52px; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 6px; font-size: 14px;}
+button {background-color: #afb0ae; color: #fff; cursor: pointer; padding: 5px 20px; margin: 15px 0px 15px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 6px; font-size: 14px;}
 button:hover { opacity: 0.8;}
 span.psw {float: right; padding-top: 16px;}
 .box-1 input, .box-2 input {
